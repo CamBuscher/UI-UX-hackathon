@@ -1,0 +1,152 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+nav {
+  position: absolute;
+  right: 20px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+nav p {
+  display: inline-block;
+}
+
+button {
+  border-radius: 0px;
+  background-color: lightgray;
+  margin: 10px;
+}
+
+.acctSettings {
+  height: 20px;
+}
+
+h3 {
+  margin-left: 20px;
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+.Goals {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap
+}
+
+.goalBox {
+  border: 2px solid black;
+  width: 30%;
+  min-width: 240px;
+  max-width: 360px;
+  margin: 10px;
+  text-align: center
+}
+
+.goalBox h2 {
+  font-size: 44px;
+  margin: 10px 0px;
+}
+
+.formNames {
+  margin: 0px 10px 0px 20px;
+}
+
+table {
+  width: 95%;
+  margin: auto;
+  border: 1px solid black;
+  text-align: left;
+  border-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: .5px solid;
+}
+
+th {
+  background-color: lightgray;
+  padding-left: 5px;
+}
+
+td {
+  padding-left: 5px;
+}
+
+.leg-div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+  justify-content: space-around
+}
+
+.leg-div img {
+  height: 250px;
+}
+
+form h3 {
+  margin-left: 0px;
+}
+
+form span {
+  margin-right: 10px;
+}
+
+.calendar-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center
+}
+
+.calendar-wrapper img {
+  height: 300px;
+}
+
+.map {
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  margin-left: 25%
+}
+
+@media only screen and (max-width: 400px) {
+  nav p {
+   position: absolute;
+   right: 5px;
+   width: 107px;
+  }
+
+  nav {
+    display: inherit;
+    align-items: none;
+  }
+
+  nav button {
+    margin-top: 40px;
+  }
+
+  nav img {
+    margin-top: 40px;
+  }
+
+  input {
+    border: 1px solid black;
+  }
+
+  .formNames {
+    display: block;
+  }
+
+  .calendar-wrapper img {
+    width: 90%;
+  }
+}
